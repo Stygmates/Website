@@ -24,7 +24,7 @@ const ProjectsTimeline = () => {
             <div className='container-fluid' style={{textAlign: "center"}}>
             <h5>Frontend using React</h5>
             <p>This is the source code for the site you are looking at.</p>
-            <SocialIcon target="_blank" rel="noopener noreferrer" url="https://github.com/Stygmates/PersonalWebsite" bgColor="grey" style={{width: "40px", height: "40px", marginRight: "10px"}}/>
+            <SocialIcon target="_blank" rel="noopener noreferrer" url="https://github.com/Stygmates/Website" bgColor="grey" style={{width: "40px", height: "40px", marginRight: "10px"}}/>
             </div>
         </VerticalTimelineElement>
 
