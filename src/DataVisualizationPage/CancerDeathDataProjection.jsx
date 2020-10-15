@@ -6,7 +6,7 @@ import HighchartsReact from 'highcharts-react-official';
 require("highcharts/modules/exporting")(Highcharts);
 
 const CancerDeathDataProjection = () => {
-    const url = "https://www.data.gouv.fr/fr/datasets/r/fa75a2f1-5854-461f-814f-4b93c0d24a0c";
+    const url = "https://www.tdtruong.com/incidence.csv";
     const [cervicalData, setCervicalData] = useState([]);
     const [uterineData, setUterineData] = useState([]);
     const [colonRectumCancerMenData, setColonRectumCancerMenData] = useState([]);
