@@ -1,0 +1,206 @@
+Localisation;Sexe;Annee;Cl_age;N_inc;N_mor
+Localisation;Sexe;"Année projection";"Classe d'âge";"Nombre de cas incidents annuel projeté";"Nombre de décès annuel projeté"
+"Col de l'utérus";Femme;2017;"[00;14]";0;0
+"Col de l'utérus";Femme;2017;"[15;49]";1127;186
+"Col de l'utérus";Femme;2017;"[50;64]";951;353
+"Col de l'utérus";Femme;2017;"[65;74]";361;182
+"Col de l'utérus";Femme;2017;"[75;84]";226;145
+"Col de l'utérus";Femme;2017;"[85;++]";170;218
+Colon-rectum;Femme;2017;"[00;14]";16;0
+Colon-rectum;Femme;2017;"[15;49]";1325;195
+Colon-rectum;Femme;2017;"[50;64]";4120;982
+Colon-rectum;Femme;2017;"[65;74]";5134;1479
+Colon-rectum;Femme;2017;"[75;84]";5465;2228
+Colon-rectum;Femme;2017;"[85;++]";4777;3506
+"Corps de l'utérus";Femme;2017;"[00;14]";0;0
+"Corps de l'utérus";Femme;2017;"[15;49]";274;15
+"Corps de l'utérus";Femme;2017;"[50;64]";2328;292
+"Corps de l'utérus";Femme;2017;"[65;74]";2839;621
+"Corps de l'utérus";Femme;2017;"[75;84]";2026;725
+"Corps de l'utérus";Femme;2017;"[85;++]";900;683
+Estomac;Femme;2017;"[00;14]";0;0
+Estomac;Femme;2017;"[15;49]";157;95
+Estomac;Femme;2017;"[50;64]";379;232
+Estomac;Femme;2017;"[65;74]";504;287
+Estomac;Femme;2017;"[75;84]";606;407
+Estomac;Femme;2017;"[85;++]";609;558
+Foie;Femme;2017;"[00;14]";10;1
+Foie;Femme;2017;"[15;49]";104;62
+Foie;Femme;2017;"[50;64]";433;329
+Foie;Femme;2017;"[65;74]";687;561
+Foie;Femme;2017;"[75;84]";719;775
+Foie;Femme;2017;"[85;++]";479;794
+Larynx;Femme;2017;"[00;14]";0;0
+Larynx;Femme;2017;"[15;49]";36;3
+Larynx;Femme;2017;"[50;64]";190;33
+Larynx;Femme;2017;"[65;74]";144;30
+Larynx;Femme;2017;"[75;84]";66;21
+Larynx;Femme;2017;"[85;++]";38;22
+"Lèvres, bouche, pharynx";Femme;2017;"[00;14]";3;0
+"Lèvres, bouche, pharynx";Femme;2017;"[15;49]";463;44
+"Lèvres, bouche, pharynx";Femme;2017;"[50;64]";1406;224
+"Lèvres, bouche, pharynx";Femme;2017;"[65;74]";925;171
+"Lèvres, bouche, pharynx";Femme;2017;"[75;84]";575;136
+"Lèvres, bouche, pharynx";Femme;2017;"[85;++]";486;183
+"Mélanome cutané";Femme;2017;"[00;14]";9;0
+"Mélanome cutané";Femme;2017;"[15;49]";2070;80
+"Mélanome cutané";Femme;2017;"[50;64]";2039;141
+"Mélanome cutané";Femme;2017;"[65;74]";1420;147
+"Mélanome cutané";Femme;2017;"[75;84]";1042;165
+"Mélanome cutané";Femme;2017;"[85;++]";763;214
+Œsophage;Femme;2017;"[00;14]";0;0
+Œsophage;Femme;2017;"[15;49]";63;17
+Œsophage;Femme;2017;"[50;64]";340;164
+Œsophage;Femme;2017;"[65;74]";320;194
+Œsophage;Femme;2017;"[75;84]";312;200
+Œsophage;Femme;2017;"[85;++]";263;227
+Ovaire;Femme;2017;"[00;14]";13;0
+Ovaire;Femme;2017;"[15;49]";536;109
+Ovaire;Femme;2017;"[50;64]";1296;559
+Ovaire;Femme;2017;"[65;74]";1300;782
+Ovaire;Femme;2017;"[75;84]";999;875
+Ovaire;Femme;2017;"[85;++]";570;786
+Pancréas;Femme;2017;"[00;14]";4;
+Pancréas;Femme;2017;"[15;49]";242;
+Pancréas;Femme;2017;"[50;64]";1281;
+Pancréas;Femme;2017;"[65;74]";1876;
+Pancréas;Femme;2017;"[75;84]";1995;
+Pancréas;Femme;2017;"[85;++]";1703;
+Poumon;Femme;2017;"[00;14]";9;0
+Poumon;Femme;2017;"[15;49]";1139;467
+Poumon;Femme;2017;"[50;64]";6373;3403
+Poumon;Femme;2017;"[65;74]";4971;2865
+Poumon;Femme;2017;"[75;84]";2855;1939
+Poumon;Femme;2017;"[85;++]";1502;1502
+Rein;Femme;2017;"[00;14]";45;2
+Rein;Femme;2017;"[15;49]";429;35
+Rein;Femme;2017;"[50;64]";1182;180
+Rein;Femme;2017;"[65;74]";1236;298
+Rein;Femme;2017;"[75;84]";1119;424
+Rein;Femme;2017;"[85;++]";636;547
+Sein;Femme;2017;"[00;14]";0;0
+Sein;Femme;2017;"[15;49]";11135;856
+Sein;Femme;2017;"[50;64]";19034;2374
+Sein;Femme;2017;"[65;74]";15180;2620
+Sein;Femme;2017;"[75;84]";8574;2582
+Sein;Femme;2017;"[85;++]";5045;3451
+"Système nerveux central";Femme;2017;"[00;14]";105;44
+"Système nerveux central";Femme;2017;"[15;49]";418;186
+"Système nerveux central";Femme;2017;"[50;64]";599;406
+"Système nerveux central";Femme;2017;"[65;74]";600;469
+"Système nerveux central";Femme;2017;"[75;84]";418;342
+"Système nerveux central";Femme;2017;"[85;++]";261;212
+Thyroïde;Femme;2017;"[00;14]";19;0
+Thyroïde;Femme;2017;"[15;49]";3109;4
+Thyroïde;Femme;2017;"[50;64]";2546;22
+Thyroïde;Femme;2017;"[65;74]";1376;39
+Thyroïde;Femme;2017;"[75;84]";458;62
+Thyroïde;Femme;2017;"[85;++]";118;84
+Vessie;Femme;2017;"[00;14]";0;0
+Vessie;Femme;2017;"[15;49]";60;17
+Vessie;Femme;2017;"[50;64]";381;116
+Vessie;Femme;2017;"[65;74]";552;185
+Vessie;Femme;2017;"[75;84]";771;323
+Vessie;Femme;2017;"[85;++]";890;594
+"Tous cancers";Femme;2015;"[00;14]";764;78
+"Tous cancers";Femme;2015;"[15;49]";25874;2892
+"Tous cancers";Femme;2015;"[50;64]";50616;11967
+"Tous cancers";Femme;2015;"[65;74]";46442;14517
+"Tous cancers";Femme;2015;"[75;84]";35881;16504
+"Tous cancers";Femme;2015;"[85;++]";26028;20245
+Colon-rectum;Homme;2017;"[00;14]";6;0
+Colon-rectum;Homme;2017;"[15;49]";1058;196
+Colon-rectum;Homme;2017;"[50;64]";5605;1419
+Colon-rectum;Homme;2017;"[65;74]";8126;2571
+Colon-rectum;Homme;2017;"[75;84]";6172;2768
+Colon-rectum;Homme;2017;"[85;++]";3068;2340
+Estomac;Homme;2017;"[00;14]";0;0
+Estomac;Homme;2017;"[15;49]";240;149
+Estomac;Homme;2017;"[50;64]";976;587
+Estomac;Homme;2017;"[65;74]";1346;792
+Estomac;Homme;2017;"[75;84]";1164;777
+Estomac;Homme;2017;"[85;++]";635;556
+Foie;Homme;2017;"[00;14]";22;0
+Foie;Homme;2017;"[15;49]";251;162
+Foie;Homme;2017;"[50;64]";2506;1426
+Foie;Homme;2017;"[65;74]";3131;2066
+Foie;Homme;2017;"[75;84]";1797;1703
+Foie;Homme;2017;"[85;++]";566;772
+Larynx;Homme;2017;"[00;14]";0;0
+Larynx;Homme;2017;"[15;49]";164;15
+Larynx;Homme;2017;"[50;64]";1136;184
+Larynx;Homme;2017;"[65;74]";904;198
+Larynx;Homme;2017;"[75;84]";392;121
+Larynx;Homme;2017;"[85;++]";150;71
+"Lèvres, bouche, pharynx";Homme;2017;"[00;14]";9;0
+"Lèvres, bouche, pharynx";Homme;2017;"[15;49]";811;124
+"Lèvres, bouche, pharynx";Homme;2017;"[50;64]";3602;849
+"Lèvres, bouche, pharynx";Homme;2017;"[65;74]";2389;687
+"Lèvres, bouche, pharynx";Homme;2017;"[75;84]";986;334
+"Lèvres, bouche, pharynx";Homme;2017;"[85;++]";389;173
+"Mélanome cutané";Homme;2017;"[00;14]";7;0
+"Mélanome cutané";Homme;2017;"[15;49]";1579;116
+"Mélanome cutané";Homme;2017;"[50;64]";2177;225
+"Mélanome cutané";Homme;2017;"[65;74]";2104;267
+"Mélanome cutané";Homme;2017;"[75;84]";1475;247
+"Mélanome cutané";Homme;2017;"[85;++]";719;181
+Œsophage;Homme;2017;"[00;14]";0;0
+Œsophage;Homme;2017;"[15;49]";141;73
+Œsophage;Homme;2017;"[50;64]";1116;682
+Œsophage;Homme;2017;"[65;74]";1223;826
+Œsophage;Homme;2017;"[75;84]";723;548
+Œsophage;Homme;2017;"[85;++]";338;294
+Pancréas;Homme;2017;"[00;14]";1;
+Pancréas;Homme;2017;"[15;49]";343;
+Pancréas;Homme;2017;"[50;64]";1710;
+Pancréas;Homme;2017;"[65;74]";2401;
+Pancréas;Homme;2017;"[75;84]";1808;
+Pancréas;Homme;2017;"[85;++]";856;
+Poumon;Homme;2017;"[00;14]";5;0
+Poumon;Homme;2017;"[15;49]";1463;643
+Poumon;Homme;2017;"[50;64]";10578;5974
+Poumon;Homme;2017;"[65;74]";11847;7421
+Poumon;Homme;2017;"[75;84]";6348;4677
+Poumon;Homme;2017;"[85;++]";2019;2100
+Prostate;Homme;2017;"[00;14]";0;0
+Prostate;Homme;2017;"[15;49]";279;10
+Prostate;Homme;2017;"[50;64]";14088;396
+Prostate;Homme;2017;"[65;74]";20186;1283
+Prostate;Homme;2017;"[75;84]";10771;2497
+Prostate;Homme;2017;"[85;++]";3103;4021
+Rein;Homme;2017;"[00;14]";40;3
+Rein;Homme;2017;"[15;49]";818;94
+Rein;Homme;2017;"[50;64]";2866;593
+Rein;Homme;2017;"[65;74]";3056;884
+Rein;Homme;2017;"[75;84]";1974;909
+Rein;Homme;2017;"[85;++]";738;699
+"Système nerveux central";Homme;2017;"[00;14]";157;51
+"Système nerveux central";Homme;2017;"[15;49]";602;307
+"Système nerveux central";Homme;2017;"[50;64]";909;640
+"Système nerveux central";Homme;2017;"[65;74]";835;634
+"Système nerveux central";Homme;2017;"[75;84]";468;370
+"Système nerveux central";Homme;2017;"[85;++]";179;145
+Testicule;Homme;2017;"[00;14]";6;0
+Testicule;Homme;2017;"[15;49]";1959;42
+Testicule;Homme;2017;"[50;64]";298;16
+Testicule;Homme;2017;"[65;74]";61;9
+Testicule;Homme;2017;"[75;84]";20;7
+Testicule;Homme;2017;"[85;++]";9;9
+Thyroïde;Homme;2017;"[00;14]";11;0
+Thyroïde;Homme;2017;"[15;49]";885;6
+Thyroïde;Homme;2017;"[50;64]";1026;28
+Thyroïde;Homme;2017;"[65;74]";775;40
+Thyroïde;Homme;2017;"[75;84]";240;41
+Thyroïde;Homme;2017;"[85;++]";42;25
+Vessie;Homme;2017;"[00;14]";0;0
+Vessie;Homme;2017;"[15;49]";139;41
+Vessie;Homme;2017;"[50;64]";1885;447
+Vessie;Homme;2017;"[65;74]";3571;949
+Vessie;Homme;2017;"[75;84]";3161;1174
+Vessie;Homme;2017;"[85;++]";1928;1167
+"Tous cancers";Homme;2017;"[00;14]";919;96
+"Tous cancers";Homme;2017;"[15;49]";14472;2757
+"Tous cancers";Homme;2017;"[50;64]";57690;17355
+"Tous cancers";Homme;2017;"[65;74]";75247;24625
+"Tous cancers";Homme;2017;"[75;84]";45728;22207
+"Tous cancers";Homme;2017;"[85;++]";19965;17060
