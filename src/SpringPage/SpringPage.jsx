@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import AddUser from './AddUser';
+import SpringPageDescription from './SpringPageDescription';
 import UserList from './UserList';
 const SpringPage = () => {
     const [userList, setUserList] = useState([]);
@@ -27,6 +28,7 @@ const SpringPage = () => {
       
 
     return (<div id="springpage" style={{textAlign: "center"}}>
+        <SpringPageDescription/>
         <AddUser updateUserList={updateUserList}/>
         <UserList updateUserList={updateUserList} error={error} isLoaded={isLoaded} userList={userList}/>
         </div>)
