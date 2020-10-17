@@ -7,6 +7,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Switch from 'react-bootstrap/esm/Switch';
 import HomePage from './HomePage/HomePage';
 import DataVisualizationPage from './DataVisualizationPage/DataVisualizationPage';
+import SpringPage from './SpringPage/SpringPage';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
   <div style={{paddingBottom: "100px"}}>
   <Switch className="container-fluid p-0">
   <Route exact path="/datavisualization"><DataVisualizationPage/></Route>
+  <Route exact path='/spring'><SpringPage/></Route>
   <Route exact path="/"><HomePage/></Route>
   </Switch>
   </div>

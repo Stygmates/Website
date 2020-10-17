@@ -21,11 +21,9 @@ const DescriptionTab = () => {
         .then(result => result.json())
           .then(
             (result) => {
-                console.log(result);
                 setIsLoaded(true);
                 setDescription(result.description);
                 setTitle(result.title);
-                console.log(result.title);
             },
             (error) => {
               setIsLoaded(true);

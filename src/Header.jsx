@@ -21,7 +21,7 @@ const Header = () => {
           <NavDropdown.Item href="/datavisualization#cancerdeathdataprojection">Cancer deaths data projection</NavDropdown.Item>
           <NavDropdown.Item href="/datavisualization#coronavirus">Coronavirus</NavDropdown.Item>
         </NavDropdown>
-        {/* <Nav.Link href="/springboot">Spring boot</Nav.Link> */}
+        <Nav.Link href="/spring">Spring boot</Nav.Link>
         {/* <Nav.Link href="/fastapi">Fast API</Nav.Link> */}
         <Nav.Link style={{borderRadius: "10px", borderColor: "grey", borderWidth: "1px", borderStyle: "solid"}} href="mailto:admin@tdtruong.com">Contact me</Nav.Link>
       </Nav>
