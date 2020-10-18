@@ -15,8 +15,9 @@ const UserList = ({updateUserList,userList, error, isLoaded}) => {
         }
         else
         {
-          return (<div>
+          return (<div style={{paddingTop: "25px", paddingBottom: "25px"}}>
             <h1> Saved users </h1>
+            <div className='container' style={{ width: '60%'}}><hr/></div>
             <Table striped bordered hover size="sm">
               <thead>
                 <tr>

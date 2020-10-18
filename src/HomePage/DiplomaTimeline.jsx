@@ -10,7 +10,7 @@ import IGBMCLogo from '../assets/IGBMC.png';
 
 const DiplomaTimeline = () => {
     return (
-            <div id="educationandworkexperience" className="bg-light">
+            <div id="educationandworkexperience" className="bg-light" style={{paddingTop: "25px", paddingBottom: "25px"}}>
             <h2 style={{textAlign: "center"}}>Education & Work experience</h2>
             <div className='container' style={{ width: '60%'}}><hr/></div>
             <br/>

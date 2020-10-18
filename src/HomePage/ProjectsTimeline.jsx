@@ -8,7 +8,7 @@ const ProjectsTimeline = () => {
 
 
     return (
-        <div id="projects">
+        <div id="projects" style={{paddingTop: "25px", paddingBottom: "25px"}}>
         <h2 style={{textAlign: "center"}}>Projects</h2>
         <div className='container' style={{ width: '60%'}}><hr/></div>
         <h3 style={{textAlign: "center"}}>Here are some of the projects I've been working on in the recent past, available on github.</h3>

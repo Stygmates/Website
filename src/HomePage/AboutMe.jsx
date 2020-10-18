@@ -3,7 +3,7 @@ import TanDat from '../assets/tandat.jpg';
 import ReactLogo from '../assets/react.png';
 const AboutMe = () => {
 
-    return <div id="aboutme">
+    return <div id="aboutme" style={{paddingTop: "25px", paddingBottom: "25px"}}>
         <h2 style={{textAlign: "center"}}>About me</h2>
         <div className='container' style={{ width: '60%'}}><hr/></div>
         <div style={{display: "inline-block", width: "80%", paddingLeft: "50px"}}>

@@ -12,7 +12,7 @@ const Hobbies = () => {
     const [burgerIsFlipped, setBurgerIsFlipped] = useState(false);
 
     return (
-        <div id="hobbies" className="bg-light">
+        <div id="hobbies" className="bg-light" style={{paddingTop: "25px", paddingBottom: "25px"}}>
             <h2 style={{textAlign: "center"}}>My Hobbies</h2>
             <div className='container' style={{ width: '60%'}}><hr/></div>
             <div style={{display: "inline-block", width: "20%"}}>
