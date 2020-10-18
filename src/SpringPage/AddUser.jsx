@@ -47,7 +47,7 @@ const AddUser = () => {
             <Form.Label>Username:</Form.Label>
             <Form.Control type="text" placeholder="Enter username" value={userName} onChange={(event) => setUserName(event.target.value)}/>
         </Form.Group>
-        <Button variant="primary" type="submit">Submit</Button>
+        <Button variant="secondary" type="submit">Submit</Button>
         </Form>
         {getStatus()}
         </div>
