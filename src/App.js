@@ -1,24 +1,45 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Header';
 import Footer from './Footer';
-import {BrowserRouter as Router, Route} from 'react-router-dom'; 
+import {Router, Route} from 'react-router-dom'; 
 import Switch from 'react-bootstrap/esm/Switch';
 import HomePage from './HomePage/HomePage';
 import DataVisualizationPage from './DataVisualizationPage/DataVisualizationPage';
 import SpringPage from './SpringPage/SpringPage';
+import FastAPIPage from './FastAPIPage/FastAPIPage';
+import ReactGA from "react-ga";  //Google Analytics 
+import { createBrowserHistory } from 'history';
 
+ReactGA.initialize("UA-180944550-1", {
+  gaOptions:{
+    siteSpeedSampleRate: 100
+  }});
+
+const history = createBrowserHistory();
+history.listen(location => {
+  ReactGA.set({ page: location.pathname });
+  ReactGA.pageview(location.pathname);
+});
 
 function App() {
+
+  const history = createBrowserHistory();
+  //Google Analytics
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  })
+
   return (
-  <Router>
+  <Router history={history}>
     
   <Header/>
   <div style={{paddingBottom: "100px"}}>
   <Switch className="container-fluid p-0">
   <Route exact path="/datavisualization"><DataVisualizationPage/></Route>
   <Route exact path='/spring'><SpringPage/></Route>
+  <Route exact path='/fastapi'><FastAPIPage/></Route>
   <Route exact path="/"><HomePage/></Route>
   </Switch>
   </div>
