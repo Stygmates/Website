@@ -14,16 +14,11 @@ const AddUser = () => {
         event.preventDefault();
             var fetchurl = "https://www.tdtruong.com:8080/save?name=" + name + "&email=" + email + "&lastname=" + lastName + "&username=" + userName;
             fetch(fetchurl)
-              .then(res => res.json())
-              .then(
-                (result) => {
-                  setIsLoadingSuccessful(true);
-                },
-                (error) => {
-                  setIsLoadingSuccessful(false);
-                  setError(error);
-                }
-              )
+            .then(response => response.text())
+            .then((response) => {
+                console.log(response)
+            })
+            .catch(err => console.log(err))
     }
     function getStatus(){
       if(!isLoadingSuccessful)
