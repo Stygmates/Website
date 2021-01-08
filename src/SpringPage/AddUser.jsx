@@ -18,11 +18,16 @@ const AddUser = () => {
             .then((response) => {
                 console.log(response)
             })
-            .catch(err => console.log(err))
+            .catch(
+                err => {
+                    setError(err);
+                    setIsLoadingSuccessful(false);
+                }
+            )
     }
     function getStatus(){
       if(!isLoadingSuccessful)
-        return <div>Failed to load: {error}</div>
+        return <div>Error adding user: {error}</div>
     }
     return (<div id="aboutme" style={{display: "inline-block", alignContent: "center"}}>
         <Form onSubmit={AddUserToList}>
