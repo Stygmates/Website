@@ -9,9 +9,13 @@ import HomePage from './HomePage/HomePage';
 import DataVisualizationPage from './DataVisualizationPage/DataVisualizationPage';
 import SpringPage from './SpringPage/SpringPage';
 import FastAPIPage from './FastAPIPage/FastAPIPage';
-import ReactGA from "react-ga";  //Google Analytics 
+import FirebasePage from './FirebasePage/FirebasePage';
+import ReactGA from "react-ga";  //Google Analytics
+
 import { createBrowserHistory } from 'history';
 
+
+//Google analytics, it may be possible to delete it once we use Firebase
 ReactGA.initialize("UA-180944550-1", {
   gaOptions:{
     siteSpeedSampleRate: 100
@@ -32,6 +36,7 @@ function App() {
   })
 
   return (
+
   <Router history={history}>
     
   <Header/>
@@ -40,6 +45,7 @@ function App() {
   <Route exact path="/datavisualization"><DataVisualizationPage/></Route>
   <Route exact path='/spring'><SpringPage/></Route>
   <Route exact path='/fastapi'><FastAPIPage/></Route>
+  <Route exact path='/firebase'><FirebasePage/></Route>
   <Route exact path="/"><HomePage/></Route>
   </Switch>
   </div>

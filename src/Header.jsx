@@ -1,7 +1,29 @@
-import React from 'react';
-import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import React, {useEffect, useState} from 'react';
+import { Nav, Navbar, NavDropdown, Button } from 'react-bootstrap';
 import Banner from './assets/banner.png';
+import firebase from 'firebase/app';
+import 'firebase/auth';        // for authentication
+
+
 const Header = () => {
+  
+  const [isSignedIn, setIsSignedIn] = useState(false); // Local signed-in state.
+  useEffect(() => {
+    const unregisterAuthObserver = firebase.auth().onAuthStateChanged(user => {
+      setIsSignedIn(!!user);
+    });
+    return () => unregisterAuthObserver(); // Make sure we un-register Firebase observers when the component unmounts.
+  }, []);
+  function SignedInText() {
+    if(!isSignedIn)
+    {
+      return <Button style={{borderRadius: "10px", borderColor: "grey", borderWidth: "1px", borderStyle: "solid"}} variant="outline-dark" href="/firebase">Log In</Button>
+    }
+    else
+    {
+      return <div>Welcome {firebase.auth().currentUser.displayName} <Button style={{borderRadius: "10px", borderColor: "grey", borderWidth: "1px", borderStyle: "solid"}} variant="outline-dark" href="/firebase">Log Out</Button></div>;
+    }
+  }
     return (
     <Navbar style={{backgroundColor: "WhiteSmoke"}} expand="lg">
     <Navbar.Brand href="/"><img alt="Tan Dat Truong" src={Banner} width = "110px" style={{  filter: "grayscale(100%)"}}/></Navbar.Brand>
@@ -26,6 +48,7 @@ const Header = () => {
         <Nav.Link style={{borderRadius: "10px", borderColor: "grey", borderWidth: "1px", borderStyle: "solid"}} href="mailto:admin@tdtruong.com">Contact me</Nav.Link>
       </Nav>
     </Navbar.Collapse>
+    {SignedInText()}
   </Navbar>
   );
 }
