@@ -18,11 +18,11 @@ const Hobbies = () => {
             <div style={{display: "inline-block", width: "20%"}}>
             <ReactCardFlip isFlipped={volleyIsFlipped} flipDirection="horizontal">
                 <div onMouseEnter={() => setVolleyIsFlipped(!volleyIsFlipped)} style={{alignItems: "center", textAlign: "center"}}>
-                    <FaVolleyballBall size={150} style={{fill: "grey"}}/>
+                    <FaVolleyballBall className="HobbyIcon" style={{fill: "grey"}}/>
                     <h4>Volley Ball</h4>
                 </div>
                 <div onMouseLeave={() => setVolleyIsFlipped(!volleyIsFlipped)} style={{alignItems: "center", textAlign: "center"}}>
-                    <FaVolleyballBall size={150} style={{fill: "blue"}}/>
+                    <FaVolleyballBall className="HobbyIcon" style={{fill: "blue"}}/>
                     <h4>Volley ball</h4>
                 </div>
             </ReactCardFlip>
@@ -31,11 +31,11 @@ const Hobbies = () => {
             <div style={{display: "inline-block", width:"20%"}}>
             <ReactCardFlip isFlipped={pingPongIsFlipped} flipDirection="horizontal">
                 <div onMouseEnter={() => setPingPongIsFlipped(!pingPongIsFlipped)} style={{alignItems: "center", textAlign: "center"}}>
-                    <GiPingPongBat size={150} style={{fill: "grey"}}/>
+                    <GiPingPongBat className="HobbyIcon" style={{fill: "grey"}}/>
                     <h4>Ping Pong</h4>
                 </div>
                 <div onMouseLeave={() => setPingPongIsFlipped(!pingPongIsFlipped)} style={{alignItems: "center", textAlign: "center"}}>
-                    <GiPingPongBat size={150} style={{fill: "red"}}/>
+                    <GiPingPongBat className="HobbyIcon" style={{fill: "red"}}/>
                     <h4>Ping Pong</h4>
                 </div>
             </ReactCardFlip>
@@ -44,11 +44,11 @@ const Hobbies = () => {
             <div style={{display: "inline-block", width:"20%"}}>
             <ReactCardFlip isFlipped={videoGamesIsFlipped} flipDirection="horizontal">
                 <div onMouseEnter={() => setVideoGamesIsFlipped(!videoGamesIsFlipped)} style={{alignItems: "center", textAlign: "center"}}>
-                    <FaGamepad size={150} style={{fill: "grey"}}/>
+                    <FaGamepad className="HobbyIcon" style={{fill: "grey"}}/>
                     <h4>Video Games</h4>
                 </div>
                 <div onMouseLeave={() => setVideoGamesIsFlipped(!videoGamesIsFlipped)} style={{alignItems: "center", textAlign: "center"}}>
-                    <FaGamepad size={150} style={{fill: "black"}}/>
+                    <FaGamepad className="HobbyIcon" style={{fill: "black"}}/>
                     <h4>Video Games</h4>
                 </div>
             </ReactCardFlip>
@@ -57,11 +57,11 @@ const Hobbies = () => {
             <div style={{display: "inline-block", width:"20%"}}>
             <ReactCardFlip isFlipped={workingOutIsFlipped} flipDirection="horizontal">
                 <div onMouseEnter={() => setWorkingOutIsFlipped(!workingOutIsFlipped)} style={{alignItems: "center", textAlign: "center"}}>
-                    <FaDumbbell size={150} style={{fill: "grey"}}/>
+                    <FaDumbbell className="HobbyIcon" style={{fill: "grey"}}/>
                     <h4>Working out</h4>
                 </div>
                 <div onMouseLeave={() => setWorkingOutIsFlipped(!workingOutIsFlipped)} style={{alignItems: "center", textAlign: "center"}}>
-                    <FaDumbbell size={150} style={{fill: "black"}}/>
+                    <FaDumbbell className="HobbyIcon" style={{fill: "black"}}/>
                     <h4>Working out</h4>
                 </div>
             </ReactCardFlip>
@@ -70,11 +70,11 @@ const Hobbies = () => {
             <div style={{display: "inline-block", width: "20%"}}>
             <ReactCardFlip isFlipped={burgerIsFlipped} flipDirection="horizontal">
                 <div onMouseEnter={() => setBurgerIsFlipped(!burgerIsFlipped)} style={{alignItems: "center", textAlign: "center"}}>
-                    <GiHamburger size={150} style={{fill: "grey"}}/>
+                    <GiHamburger className="HobbyIcon" style={{fill: "grey"}}/>
                     <h4>Food</h4>
                 </div>
                 <div onMouseLeave={() => setBurgerIsFlipped(!burgerIsFlipped)} style={{alignItems: "center", textAlign: "center"}}>
-                    <GiHamburger size={150} style={{fill: "brown"}}/>
+                    <GiHamburger className="HobbyIcon" style={{fill: "brown"}}/>
                     <h4>Food</h4>
                 </div>
             </ReactCardFlip>
