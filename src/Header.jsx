@@ -21,7 +21,7 @@ const Header = () => {
     }
     else
     {
-      return <Nav>{firebase.auth().currentUser.displayName} <Nav.Link style={{borderRadius: "10px", borderColor: "grey", borderWidth: "1px", borderStyle: "solid"}} onClick={() => firebase.auth().signOut()}>Sign Out</Nav.Link></Nav>;
+      return <Nav><div className="navbar-brand">{firebase.auth().currentUser.displayName}</div> <Nav.Link style={{borderRadius: "10px", borderColor: "grey", borderWidth: "1px", borderStyle: "solid"}} onClick={() => firebase.auth().signOut()}>Sign Out</Nav.Link></Nav>;
     }
   }
     return (
