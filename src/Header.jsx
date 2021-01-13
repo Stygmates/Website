@@ -1,5 +1,5 @@
-import React, {useEffect, useState} from 'react';
-import { Nav, Navbar, NavDropdown, Button } from 'react-bootstrap';
+import React, { useEffect, useState } from 'react';
+import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import Banner from './assets/banner.png';
 import firebase from 'firebase/app';
 import 'firebase/auth';        // for authentication
@@ -14,14 +14,14 @@ const Header = () => {
     });
     return () => unregisterAuthObserver(); // Make sure we un-register Firebase observers when the component unmounts.
   }, []);
-  function SignedInText() {
+  function SignInButton() {
     if(!isSignedIn)
     {
-      return <Button style={{borderRadius: "10px", borderColor: "grey", borderWidth: "1px", borderStyle: "solid"}} variant="outline-dark" href="/firebase">Log In</Button>
+      return <Nav><Nav.Link style={{borderRadius: "10px", borderColor: "grey", borderWidth: "1px", borderStyle: "solid"}} href="/firebase">Log In</Nav.Link></Nav>;
     }
     else
     {
-      return <div>Welcome {firebase.auth().currentUser.displayName} <Button style={{borderRadius: "10px", borderColor: "grey", borderWidth: "1px", borderStyle: "solid"}} variant="outline-dark" href="/firebase">Log Out</Button></div>;
+      return <Nav>{firebase.auth().currentUser.displayName} <Nav.Link style={{borderRadius: "10px", borderColor: "grey", borderWidth: "1px", borderStyle: "solid"}} onClick={() => firebase.auth().signOut()}>Sign Out</Nav.Link></Nav>;
     }
   }
     return (
@@ -48,7 +48,7 @@ const Header = () => {
         <Nav.Link style={{borderRadius: "10px", borderColor: "grey", borderWidth: "1px", borderStyle: "solid"}} href="mailto:admin@tdtruong.com">Contact me</Nav.Link>
       </Nav>
     </Navbar.Collapse>
-    {SignedInText()}
+    {SignInButton()}
   </Navbar>
   );
 }
