@@ -1,3 +1,19 @@
+## Installation instructions
+- Clone the project
+- Install the dependencies: ```npm install```
+- Create the buid: ``` npm run build```
+- Install apache: ```sudo apt install apache2```
+- For apache, enable the rewrite module: ```sudo a2enmod rewrite```, copy the build to the right folder: ```cp build/. /var/www/html``` and make sure the .htaccess file is copied.
+- For apache, enable override in /etc/apache2/apache2.conf: 
+```
+<Directory /var/www/>
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
+```
+- Restart apache server: ```systemctl restart apache2```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
