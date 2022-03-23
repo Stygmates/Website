@@ -10,13 +10,13 @@ import DataVisualizationPage from './DataVisualizationPage/DataVisualizationPage
 import SpringPage from './SpringPage/SpringPage';
 import FastAPIPage from './FastAPIPage/FastAPIPage';
 import FirebasePage from './FirebasePage/FirebasePage';
-import ReactGA from "react-ga";  //Google Analytics
+import ReactGA from "react-ga4";  //Google Analytics
 
 import { createBrowserHistory } from 'history';
 
 
 //Google analytics, it may be possible to delete it once we use Firebase
-ReactGA.initialize("UA-180944550-1", {
+ReactGA.initialize("G-E8J45Z5CPH", {
   gaOptions:{
     siteSpeedSampleRate: 100
   }});
