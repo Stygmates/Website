@@ -37,18 +37,18 @@ const Header = () => {
           <NavDropdown.Item href="/#languages">Languages</NavDropdown.Item>
           <NavDropdown.Item href="/#hobbies">Hobbies</NavDropdown.Item>
         </NavDropdown>
-        <NavDropdown title="Data visualization" id="dropdown-data-visualization">
+        {/* <NavDropdown title="Data visualization" id="dropdown-data-visualization">
           <NavDropdown.Item href="/datavisualization">Presentation</NavDropdown.Item>
           <NavDropdown.Item href="/datavisualization#cancersurgeryevolution">Cancer surgery evolution</NavDropdown.Item>
           <NavDropdown.Item href="/datavisualization#cancerdeathdataprojection">Cancer deaths data projection</NavDropdown.Item>
           <NavDropdown.Item href="/datavisualization#coronavirus">Coronavirus</NavDropdown.Item>
         </NavDropdown>
-        <Nav.Link href="/spring">Spring boot</Nav.Link>
+        <Nav.Link href="/spring">Spring boot</Nav.Link> */}
         {/* <Nav.Link href="/fastapi">Fast API</Nav.Link> */}
         <Nav.Link style={{borderRadius: "10px", borderColor: "grey", borderWidth: "1px", borderStyle: "solid"}} href="mailto:admin@tdtruong.com">Contact me</Nav.Link>
       </Nav>
     </Navbar.Collapse>
-    {SignInButton()}
+    {/* {SignInButton()} */}
   </Navbar>
   );
 }
