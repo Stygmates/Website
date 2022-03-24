@@ -1,3 +1,21 @@
+## Installation instructions using docker
+- Generate key/certificate using [certbot](https://certbot.eff.org/instructions?ws=apache&os=debianbuster)
+- Copy key/cert to the root folder of the project as root and change owner to your owner or add permissions:
+```console
+root@bar: ~$ cp /etc/letsencrypt/live/tdtruong.com/fullchain.pem <website_repository>
+root@bar: ~$ cp /etc/letsencrypt/live/tdtruong.com/privkey.pem <website_repository>
+root@bar:/<website_repository> chown <new_owner> fullchain.pem
+root@bar:/<website_repository> chown <new_owner> privkey.pem
+```
+- Build using docker as a regular user:
+```console
+foo@bar: ~$ docker build -t website-image
+```
+- Run a new container:
+```
+foo@bar: ~$ docker run --name website-container -dit -p 80:80 -p 443:443 website-image
+```
+
 ## Installation instructions
 - Clone the project
 - Install the dependencies: ```npm install```
