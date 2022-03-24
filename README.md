@@ -1,3 +1,7 @@
+## Installation instructions using docker-compose
+- docker-compose up -d (to detach the tty)
+- docker-compose logs website
+
 ## Installation instructions using docker
 - Generate key/certificate using [certbot](https://certbot.eff.org/instructions?ws=apache&os=debianbuster)
 - Copy key/cert to the root folder of the project as root and change owner to your owner or add permissions:
