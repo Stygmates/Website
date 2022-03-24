@@ -9,7 +9,7 @@ root@bar:/<website_repository> chown <new_owner> privkey.pem
 ```
 - Build using docker as a regular user:
 ```console
-foo@bar: ~$ docker build -t website-image
+foo@bar: ~$ docker build -t website-image .
 ```
 - Run a new container:
 ```
