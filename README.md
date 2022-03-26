@@ -1,4 +1,10 @@
 ## Installation instructions using docker-compose
+- Generate key/certificate using [certbot](https://certbot.eff.org/instructions?ws=apache&os=debianbuster)
+- Add key and certificate access to regular users:
+
+```console
+foo@bar: ~$ chmod 755 /etc/letsencrypt/live
+```
 - docker-compose up -d (to detach the tty)
 - docker-compose logs website
 

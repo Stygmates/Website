@@ -5,3 +5,10 @@ services:
     ports:
       - "80:80"
       - "443:443"
+    volumes:
+      - type: bind
+        source: /etc/letsencrypt/live/tdtruong.com/fullchain.pem
+        target: /usr/local/apache2/conf/server.crt
+      - type: bind
+        source: /etc/letsencrypt/live/tdtruong.com/privkey.pem
+        target: /usr/local/apache2/conf/server.key
