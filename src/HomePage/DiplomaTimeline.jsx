@@ -20,11 +20,29 @@ const DiplomaTimeline = () => {
             contentStyle={{color: 'black'}}
             contentArrowStyle={{ borderRight: '7px solid grey' }}
             iconStyle={{ background: 'blue', color: '#fff' }}
-            date='September 2019 - present'
+            date='September 2021 - present'
+            icon={<BsFillBriefcaseFill />}>
+                <div className='container-fluid' style={{textAlign: 'center'}}><a target='_blank' rel='noopener noreferrer' href='http://www.igbmc.fr/'><img alt="Institut de Génétique et Biologie moléculaire et cellulaire" src={IGBMCLogo} style={{width: "120px"}}/></a><hr/>
+                <h5>Software developer</h5>
+                <p>Lead development of two fullstack applications for biological data management, integrating unit tests, containerization, and CI/CD.</p>
+                <p>Coordinated UI design with a web agency, writing a functional specification and delivering a Figma prototype.</p>
+                <p>Co-mentored two interns, providing training and integration into projects.</p>
+                <p>Created RESTful APIs in Rust (Actix, Diesel, PostgreSQL) following OpenAPI, with a frontend in VueJS/React.js/Next.js.</p>
+                <p>Managed frontend (Storybook) and backend (Rustdoc) documentation to ensure consistency and accessibility.</p>
+                </div>
+            </VerticalTimelineElement>
+            
+            <VerticalTimelineElement 
+            className="vertical-timeline-element--work"
+            contentStyle={{color: 'black'}}
+            contentArrowStyle={{ borderRight: '7px solid grey' }}
+            iconStyle={{ background: 'grey', color: '#fff' }}
+            date='September 2019 - July 2021'
             icon={<BsFillBriefcaseFill />}>
                 <div className='container-fluid' style={{textAlign: "center"}}><a target="_blank" rel="noopener noreferrer" href="https://www.davidson.fr"><img alt="Davidson" src={DavidsonLogo} style={{width: "120px"}}/></a><hr/>
-                <h5>Software Engineer consultant working for Euro Information Presse since November 2019</h5>
-                <p>Currently maintaining and adding new features to the user profiles and the shops of the Ebra Group's news websites such as <a target="_blank" rel="noopener noreferrer" href="https://www.dna.fr/">"Les Dernières Nouvelles d'Alsace"</a> or <a target="_blank" rel="noopener noreferrer" href="https://www.leprogres.fr/">"Le Progrès"</a></p>
+                <h5>Software Engineer consultant working for Euro Information Presse</h5>
+                <p>Maintained and added new features to the user profiles and the shops of the Ebra Group's news websites such as <a target="_blank" rel="noopener noreferrer" href="https://www.dna.fr/">"Les Dernières Nouvelles d'Alsace"</a> or <a target="_blank" rel="noopener noreferrer" href="https://www.leprogres.fr/">"Le Progrès"</a></p>
+                <p>Added security features to the frontend like CSRF protection</p>
                 </div>
             </VerticalTimelineElement>
 
